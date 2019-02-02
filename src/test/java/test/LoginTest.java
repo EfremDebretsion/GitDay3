@@ -34,6 +34,8 @@ public class LoginTest {
 
     @AfterMethod
     public void close(){
-        driver.quit();
+        driver.close();
     }
-}
+
+
+    }
